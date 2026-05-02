@@ -1,0 +1,12 @@
+name = "rev-open-full-auto-linked"
+main = "worker.js"
+compatibility_date = "2024-12-01"
+
+# AI相談でCloudflare Workers AIを使う場合だけ有効化
+# [ai]
+# binding = "AI"
+
+# KV保存を使う場合はCloudflare側でNamespaceを作り、idを入れて有効化
+# [[kv_namespaces]]
+# binding = "RACES_KV"
+# id = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
